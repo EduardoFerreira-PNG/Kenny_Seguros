@@ -1,0 +1,26 @@
+.logo__login{
+    max-width: 100%;
+}
+
+.main__login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.form__login{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.img__login{
+    display: flex;
+    justify-content: center;
+}
+
+.img__login--imagem{
+    max-width: 250px;
+    height: auto;
+}
