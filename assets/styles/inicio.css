@@ -5,7 +5,7 @@ body {
 header{
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #FAFBFC;
+  border-bottom: 1px solid var(--b0);
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
   height: 100px;
 }
@@ -48,7 +48,7 @@ header{
 }
 
 .criarconta span{
-  color: #43A4EB;
+  color: var(--b5);
   cursor: pointer;
 }
 
@@ -72,7 +72,7 @@ header{
 .esqueceu__senha {
   font-size: 14px;
   text-decoration: none;
-  color: #43A4EB;
+  color: var(--b5);
   cursor: pointer;
 }
 
@@ -88,8 +88,8 @@ header{
 
 .btn__login:hover{
   background: transparent;
-  border: 1px solid #025fa4; 
-  color: #025fa4;
+  border: 1px solid var(--b8); 
+  color: var(--b8);
   font-weight: bold;
   transition: 0.5s;
   cursor: pointer;
