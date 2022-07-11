@@ -1,26 +1,226 @@
-.logo__login{
-    max-width: 100%;
+body {
+  background-color: #f5f5f5;
 }
 
-.main__login{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+header{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #FAFBFC;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+  height: 100px;
+}
+.logo__login {
+ max-width: 180px;
 }
 
-.form__login{
-    display: flex;
-    flex-direction: column;
-    
+.main__login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 7rem;
+}
+.form__login {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
 }
 
-
-.img__login{
-    display: flex;
-    justify-content: center;
+#user__input {
+  max-width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: transparent;
 }
 
-.img__login--imagem{
-    max-width: 250px;
-    height: auto;
+#label__input {
+  margin: 16px 0 5px 0;
+  font-size: 20px;
+}
+
+.criarconta {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  font-size: 16px;
+}
+
+.criarconta span{
+  color: #43A4EB;
+  cursor: pointer;
+}
+
+.checkbox__login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#checkbox {
+  width: 18px;
+  margin: 0;
+}
+
+#label__check {
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.esqueceu__senha {
+  font-size: 14px;
+  text-decoration: none;
+  color: #43A4EB;
+  cursor: pointer;
+}
+
+.btn__login {
+  max-width: 45%;
+  margin-top: 1.5rem;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0776c7 0%, #025fa4 100%);
+}
+
+.btn__login:hover{
+  background: transparent;
+  border: 1px solid #025fa4; 
+  color: #025fa4;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.border{
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+  margin-top: 4rem;
+  opacity: 60%;
+}
+
+.login__alternativo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#btn__alternativo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 0.8rem;
+  color: black;
+  height: 2.5rem;
+}
+
+#btn__alternativo:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+#btn__alternativo:nth-child(1)::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("/assets/imgs/google.svg") no-repeat;
+  margin: 1.5rem;
+  display: flex;
+  background-size: 28px;
+  align-items: center;
+}
+#btn__alternativo:nth-child(2)::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("/assets/imgs/facebook.svg") no-repeat;
+  margin: 1.5rem;
+  display: flex;
+  background-size: 28px;
+  align-items: center;
+}
+#btn__alternativo:nth-child(3)::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("/assets/imgs/apple.svg") no-repeat;
+  margin: 1.5rem;
+  display: flex;
+  background-size: 28px;
+  align-items: center;
+}
+
+.img__login {
+  display: flex;
+  justify-content: center;
+}
+
+.img__login--imagem {
+  max-width: 697px;
+  height: 600px;
+  padding-top: 5rem;
+}
+
+.rodape__divisao {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #fff; 
+}
+
+.rodape__divisao div{
+    margin-top: 3rem;
+}
+
+.logo__rodape {
+  width: 90px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer li {
+  list-style: none;
+  line-height: 1.8rem;
+}
+
+.secao__logo ul {
+  display: flex;
+  justify-content: center;
+}
+.secao__logo li img {
+  display: flex;
+  width: 20px;
+  margin: 0;
+  padding: 5px;
+}
+
+.final__rodape {
+  display: flex;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.final__rodape p {
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
+.borda__rodape {
+  background-color: #fff;
+  max-width: 100%;
+  margin-top: 2rem;
+}
+footer {
+  background-color: #fff;
+  margin-top: 5rem;
 }

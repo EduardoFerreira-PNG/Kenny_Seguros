@@ -2,49 +2,99 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/icon logo.svg " type="image" sizes="16x16">
     <link rel="stylesheet" href="assets/styles/inicio.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
     <title>kenny</title>
 </head>
 <body>
     <header>
-        <img class="logo__login" src="assets/imgs/logo__kenny.svg" alt="Logo da Kenny Seguros">
+        <img class="logo__login" src="assets/imgs/Logo.svg" alt="Logo da Kenny Seguros">
     </header>
     
-    <main>
-        <section class="main__login">
+    <main class="main__login">
+        <section>
             <div class="form__login">
                 <h1 class="titulo__login">
                     Entrar
                 </h1>
-                <p>ou criar uma conta</p>
+                <p class="criarconta">ou &nbsp;<span>criar uma conta</span></p>
 
-                <label for="email">E-mail</label>
-                <input type="email" placeholder="Seu email" name="email">
+                <label for="email" id="label__input">E-mail</label>
+                <input type="email" id="user__input" placeholder="Seu email" name="email">
 
-                <label for="senha">Senha</label>
-                <input type="password" placeholder="Sua senha" name="senha">
-
-                <input type="checkbox" name="Mantenha-me conectado">
-                <label for="Mantenha-me conectado">Mantenha-me conectado</label>
-                <p>Esqueceu sua senha?</p>
-                <button>
+                <label for="senha" id="label__input">Senha</label>
+                <input type="password" id="user__input" placeholder="Sua senha" name="senha">
+                <div class="checkbox__login">
+                    <input type="checkbox" id="checkbox" name="conectado">
+                    <label for="conectado" id="label__check">Mantenha-me conectado</label>
+                    <a class="esqueceu__senha">Esqueceu sua senha?</a>
+                </div>
+                <button class="btn__login">
                     Entrar
                 </button>
             </div>
-            <div class="img__login">
-                <img  class="img__login--imagem" src="assets/imgs/imagem__login.svg" alt="imagem de login da kenny seguros">
+            <div class="border">
+            </div>
+            <div class="login__alternativo">
+                <a href="#" id="btn__alternativo">Entrar com o Google</a>
+                <a href="#" id="btn__alternativo">Entrar com o Facebook</a>
+                <a href="#" id="btn__alternativo">Entrar com a Apple</a>
             </div>
         </section>
+        <div class="img__login">
+            <img  class="img__login--imagem" src="assets/imgs/imagem__login.svg" alt="imagem de login da kenny seguros">
+        </div>
 
 
 
     </main>
 
-    <footer></footer>
-
+    <footer>
+        <section class="rodape__divisao">
+            <div class="secao__logo">
+                <img class="logo__rodape" src="assets/imgs/logo__footer.svg" alt="Logo do rodape da kenny seguros">
+                <ul>
+                    <li><img src="assets/imgs/logo__footer.svg" alt=""></li>
+                    <li><img src="assets/imgs/logo__footer.svg" alt=""></li>
+                    <li><img src="assets/imgs/logo__footer.svg" alt=""></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Empresa</h2>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Pedir reembolso</a></li>
+                    <li><a href="#">Dicas de segurança</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Atendimento</h2>
+                <ul>
+                    <li><a href="#">Sac e Telefones</a></li>
+                    <li><a href="#">Central de ajuda</a></li>
+                    <li><a href="#">Deficiente Auditivo</a></li>
+                    <li><a href="#">Dicas de segurança</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Seguros</h2>
+                <ul>
+                    <li><a href="#">Seguro de celular</a></li>
+                    <li><a href="#">Seguro auto</a></li>
+                    <li><a href="#">Seguro residência</a></li>
+                </ul>
+            </div>
+            
+        </section>
+        <img class="borda__rodape" src="assets/imgs/border rodape.svg" alt="">
+        <div class="final__rodape">
+            <p>Termos de uso</p>
+            <p>Politica de Privacidade</p>
+        </div>
+</footer>
 
 </body>
 </html>
