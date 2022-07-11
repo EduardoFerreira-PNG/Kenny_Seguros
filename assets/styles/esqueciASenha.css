@@ -1,0 +1,47 @@
+.main__senha {
+  display: flex;
+  justify-content: center;
+}
+.main__senha section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  max-width: 45%;
+}
+
+.senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.senha p {
+  font-size: 16px;
+}
+
+.btn__senha {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn__enviar {
+  width: 100px;
+  margin-top: 1.5rem;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0776c7 0%, #025fa4 100%);
+}
+
+.btn__enviar:hover {
+  background: transparent;
+  border: 1px solid var(--b8);
+  color: var(--b8);
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}

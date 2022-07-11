@@ -21,7 +21,7 @@ header{
   justify-items: center;
   margin-top: 7rem;
 }
-.form__login {
+.form {
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -33,6 +33,7 @@ header{
   border-radius: 4px;
   border: 1px solid black;
   background-color: transparent;
+  outline: none;
 }
 
 #label__input {
@@ -47,9 +48,14 @@ header{
   font-size: 16px;
 }
 
-.criarconta span{
+#user__input::placeholder{
+  padding: 0.6rem;
+}
+
+.criarconta a{
   color: var(--b5);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .checkbox__login {

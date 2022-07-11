@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imgs/icon logo.svg " type="image" sizes="16x16">
     <link rel="stylesheet" href="assets/styles/inicio.css">
     <link rel="stylesheet" href="assets/styles/utilidades/cores.css">
+    <link rel="stylesheet" href="assets/styles/cadastro.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
     <title>kenny</title>
 </head>
-
 <body>
     <header>
         <img class="logo__login" src="assets/imgs/Logo.svg" alt="Logo da Kenny Seguros">
     </header>
-
+    
     <main class="main__login">
         <section>
             <div class="form">
                 <h1 class="titulo__form">
-                    Entrar
+                    Criar uma conta
                 </h1>
-                <p class="criarconta">ou &nbsp;<a href="cadastro.html">criar uma conta</a></p>
+                <p class="criarconta">ou &nbsp;<a href="login.html">acessar a conta</a></p>
 
-                <label for="email" id="label__input focus">E-mail</label>
-                <input type="email" id="user__input" placeholder="Seu email" name="email">
+                <label for="nome" id="label__input">Nome</label>
+                <input type="text" id="user__input" placeholder="Seu nome" name="nome">
+
+                <label for="sobrenome" id="label__input">Sobrenome</label>
+                <input type="text" id="user__input" placeholder="Seu Sobrenome" name="sobrenome">
+
+                <label for="email" id="label__input">E-mail</label>
+                <input type="email" id="user__input" placeholder="Seu E-mail" name="email">
 
                 <label for="senha" id="label__input">Senha</label>
                 <input type="password" id="user__input" placeholder="Sua senha" name="senha">
-                <div class="checkbox__login">
-                    <input type="checkbox" id="checkbox" name="conectado">
-                    <label for="conectado" id="label__check">Mantenha-me conectado</label>
-                    <a href="esqueceuASenha.html" class="esqueceu__senha">Esqueceu sua senha?</a>
+
+                <div class="checkbox__cadastro">
+                    <input type="checkbox" id="termos" name="termos">
+                    <label for="termos" id="label__termos">Concordo com os <a href="#">Termos da Kenny Seguros.</a>
+                        Saiba como usamos e protegemos seus dados em nossa &nbsp;<a href="#">Política de privacidade.</a></label>
                 </div>
-                <button class="btn__login">
-                    Entrar
+                <button class="btn__cadastro">
+                    Criar uma conta
                 </button>
             </div>
             <div class="border">
             </div>
             <div class="login__alternativo">
-                <a href="#" id="btn__alternativo">Entrar com o Google</a>
-                <a href="#" id="btn__alternativo">Entrar com o Facebook</a>
-                <a href="#" id="btn__alternativo">Entrar com a Apple</a>
+                <a href="#" id="btn__alternativo">Registrar-se pelo Google</a>
+                <a href="#" id="btn__alternativo">Registrar-se pelo Facebook</a>
+                <a href="#" id="btn__alternativo">Registrar-se pelo Apple</a>
             </div>
         </section>
         <div class="img__login">
-            <img class="img__login--imagem" src="assets/imgs/imagem__login.svg" alt="imagem de login da kenny seguros">
+            <img  class="img__login--imagem" src="assets/imgs/img__cadastro.svg" alt="imagem de login da kenny seguros">
         </div>
 
 
@@ -90,15 +96,14 @@
                     <li><a href="#">Seguro residência</a></li>
                 </ul>
             </div>
-
+            
         </section>
         <img class="borda__rodape" src="assets/imgs/border rodape.svg" alt="">
         <div class="final__rodape">
             <p>Termos de uso</p>
             <p>Politica de Privacidade</p>
         </div>
-    </footer>
+</footer>
 
 </body>
-
 </html>

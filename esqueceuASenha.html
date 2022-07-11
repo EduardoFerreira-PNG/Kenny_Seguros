@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imgs/icon logo.svg " type="image" sizes="16x16">
     <link rel="stylesheet" href="assets/styles/inicio.css">
     <link rel="stylesheet" href="assets/styles/utilidades/cores.css">
+    <link rel="stylesheet" href="assets/styles/cadastro.css">
+    <link rel="stylesheet" href="assets/styles/esqueciASenha.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
     <title>kenny</title>
 </head>
-
 <body>
     <header>
         <img class="logo__login" src="assets/imgs/Logo.svg" alt="Logo da Kenny Seguros">
     </header>
-
-    <main class="main__login">
+    
+    <main class="main__senha">
         <section>
-            <div class="form">
-                <h1 class="titulo__form">
-                    Entrar
+            <div class="senha">
+                <h1 class="titulo__senha">
+                    Esqueceu a senha?
                 </h1>
-                <p class="criarconta">ou &nbsp;<a href="cadastro.html">criar uma conta</a></p>
+                <p> Digite seu endereço de e-mail para redefinir a senha. Talvez você precise verificar
+                     sua pasta de spams ou desbloquear o e-mail ajuda@kennyseguros.com.</p>
 
-                <label for="email" id="label__input focus">E-mail</label>
-                <input type="email" id="user__input" placeholder="Seu email" name="email">
-
-                <label for="senha" id="label__input">Senha</label>
-                <input type="password" id="user__input" placeholder="Sua senha" name="senha">
-                <div class="checkbox__login">
-                    <input type="checkbox" id="checkbox" name="conectado">
-                    <label for="conectado" id="label__check">Mantenha-me conectado</label>
-                    <a href="esqueceuASenha.html" class="esqueceu__senha">Esqueceu sua senha?</a>
-                </div>
-                <button class="btn__login">
-                    Entrar
-                </button>
+                <label for="email" id="label__input">E-mail</label>
+                <input type="email" id="user__input" placeholder="Seu E-mail" name="email">
             </div>
-            <div class="border">
-            </div>
-            <div class="login__alternativo">
-                <a href="#" id="btn__alternativo">Entrar com o Google</a>
-                <a href="#" id="btn__alternativo">Entrar com o Facebook</a>
-                <a href="#" id="btn__alternativo">Entrar com a Apple</a>
+            <div class="btn__senha">                
+                <a href="login.html">
+                    <button class="btn__enviar">
+                        Enviar
+                    </button>
+                </a>
             </div>
         </section>
-        <div class="img__login">
-            <img class="img__login--imagem" src="assets/imgs/imagem__login.svg" alt="imagem de login da kenny seguros">
-        </div>
-
-
-
     </main>
 
     <footer>
@@ -90,15 +74,14 @@
                     <li><a href="#">Seguro residência</a></li>
                 </ul>
             </div>
-
+            
         </section>
         <img class="borda__rodape" src="assets/imgs/border rodape.svg" alt="">
         <div class="final__rodape">
             <p>Termos de uso</p>
             <p>Politica de Privacidade</p>
         </div>
-    </footer>
+</footer>
 
 </body>
-
 </html>
