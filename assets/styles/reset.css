@@ -1,4 +1,7 @@
-
+*{
+    text-decoration: none;
+    list-style: none;
+}
 body {
     font-family: Roboto, sans-serif;
     margin: 0;

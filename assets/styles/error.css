@@ -1,0 +1,45 @@
+body {
+  background-color: var(--b0);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo__error {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.error p {
+  margin: 0;
+}
+
+.error a {
+  font-size: 20px;
+  color: var(--b6);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.error a::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("/assets/imgs/arrow__error.svg") no-repeat;
+  display: flex;
+  background-size: 20px;
+  margin-left: 10px;
+}

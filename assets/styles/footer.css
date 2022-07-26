@@ -1,0 +1,59 @@
+.rodape__divisao {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #fff; 
+  }
+  
+  .rodape__divisao div{
+      margin-top: 3rem;
+  }
+  
+  .logo__rodape {
+    width: 90px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer a {
+    list-style: none;
+    line-height: 1.8rem;
+  }
+  
+  .secao__logo ul {
+    display: flex;
+    justify-content: center;
+  }
+  .icone__social img {
+    display: flex;
+    width: 20px;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .final__rodape {
+    display: flex;
+    max-width: 100%;
+    background-color: #fff;
+  }
+  
+  .final__rodape p {
+    padding: 1rem;
+    margin-left: 5rem;
+  }
+  
+  .borda__rodape {
+    background-color: #fff;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+  footer {
+    background-color: #fff;
+    margin-top: 5rem;
+  }
+  
